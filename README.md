@@ -1,11 +1,11 @@
 # Hiltronix Add-ons Repository for Kodi/XBMC
 
 This repo contains:
-- SickRage Interface
+#### SickRage Interface
 
 -----
 
-# Repo Installation Instructions:
+## Repo Installation Instructions:
 
 There is more than one way to install a Kodi/XBMC repo.
 
@@ -14,7 +14,7 @@ You can download the file "repository.Hiltronix.zip" manually from here, and ins
 Kodi/XBMC > System > Add-ons > Install from zip file  
 Then browse to where you saved the ZIP file and select it.
 
-OR
+###### OR
 
 You can download it directly from the Internet:
 
@@ -31,7 +31,7 @@ If successful, you should see a notification in the bottom right corner saying, 
 
 -----
 
-# Installing Hiltronix Repo Add-ons:
+## Installing Hiltronix Repo Add-ons:
 
 This should be straight forward, but here is what you do...
 
