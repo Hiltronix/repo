@@ -1,7 +1,7 @@
 # Hiltronix Add-ons Repository for Kodi/XBMC
 
 This repo contains:
-#### SickRage Interface
+#### [SickRage Interface](https://github.com/Hiltronix/plugin.video.sickrage)
 
 -----
 
