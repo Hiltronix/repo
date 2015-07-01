@@ -2,7 +2,7 @@
 <addons>
 <addon id="plugin.video.sickrage"
 	name="SickRage"
-	version="1.0.9"
+	version="1.0.10"
 	provider-name="Hiltronix (Orig. Work by Zach Moore)">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
