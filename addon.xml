@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.Hiltronix" name="Hiltronix Repository" version="1.0.1" provider-name="Hiltronix">
+	<extension point="xbmc.addon.repository" name="Hiltronix Repository">
+		<info compressed="false">https://github.com/Hiltronix/repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/Hiltronix/repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/Hiltronix/repo/raw/master/zips/</datadir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Install Addons from Hiltronix Repository</summary>
+		<description>Download and install addons from Hiltronix.</description>
+		<disclaimer>
+			The Software is provided "as is" without warranty of any kind, either express or implied, including without limitation any implied warranties of condition, uninterrupted use, merchantability, fitness for a particular purpose, or non-infringement.
+			Hiltronix and anyone associated with these addons will not be held responsible for the use or misuse of this software if considered illegal in your country.  Use the this software is at your own risk.
+		</disclaimer>
+		<platform>all</platform>
+	</extension>
+</addon>
