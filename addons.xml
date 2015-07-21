@@ -1,5 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="plugin.program.advsettings"
+	name="My Advanced Settings"
+	version="1.0.0"
+	provider-name="Hiltronix">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Advanced Settings for Kodi/XBMC</summary>
+		<description>View and change advanced settings that aren't easily accessible in Kodi/XBMC.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
 <addon id="plugin.video.sickrage"
 	name="SickRage"
 	version="1.1.3"
