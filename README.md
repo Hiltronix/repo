@@ -2,6 +2,8 @@
 
 This repo contains:
 #### [SickRage Interface](https://github.com/Hiltronix/plugin.video.sickrage)
+#### My Advanced Settings
+#### uTorrent (this version works on Android)
 
 -----
 
