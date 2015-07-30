@@ -48,7 +48,7 @@
 
 <addon id="plugin.video.sickrage"
 	name="SickRage"
-	version="1.2.2"
+	version="1.2.3"
 	provider-name="Hiltronix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
@@ -60,7 +60,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary>SickRage Interface for Kodi/XBMC</summary>
-		<description>View and control SickRage from within Kodi/XBMC.</description>
+		<description>View and control SickRage or SickBeard from within Kodi/XBMC.</description>
 		<platform>all</platform>
 		<language>en</language>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
