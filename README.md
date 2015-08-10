@@ -2,12 +2,13 @@
 
 This repo contains:
 ##### [SickRage Interface](https://github.com/Hiltronix/plugin.video.sickrage)
+##### Video Lookup (context menu Add-on)
 ##### My Advanced Settings
 ##### uTorrent (this version works on Android)
 
 -----
 
-## Repo Installation Instructions:
+## Repo Installation Instructions
 
 There is more than one way to install a Kodi/XBMC repo.
 
@@ -33,9 +34,18 @@ If successful, you should see a notification in the bottom right corner saying, 
 
 -----
 
-## Installing Hiltronix Repo Add-ons:
+## Installing Add-ons in the Hiltronix Repo
 
 This should be straight forward, but here is what you do...
 
 Kodi/XBMC > System > Add-ons > Install from repository > Hiltronix Repository  
-Then simply navigate to the add-ons you wish to install.
+Then simply navigate to the add-on(s) you wish to install.
+
+-----
+
+## [Donations](https://hiltronix.com/donations/)  
+
+If you would like to show your appreciation for this project, and/or help support it to keep it current, please consider making a donation.  
+[Click Here](https://hiltronix.com/donations/).  
+[![Support the project](https://github.com/Hiltronix/repo/blob/master/images/donate.png)](https://hiltronix.com/donations/)
+
