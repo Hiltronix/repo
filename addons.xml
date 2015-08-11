@@ -1,5 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
+<addon id="context.lookuponimdb.dialog"
+	name="Lookup on IMDb"
+	version="1.0.0"
+	provider-name="Hiltronix">
+	<requires>
+		<import addon="xbmc.python" version="2.20.0"/>
+	</requires>
+	<extension point="kodi.context.item" library="addon.py">
+		<item>
+			<label>Lookup on IMDb</label>
+			<!-- <visible>!IsEmpty(ListItem.Label) | !IsEmpty(ListItem.Title)</visible> -->
+			<visible>true</visible>
+			<!-- <parent>kodi.core.manage</parent> -->
+		</item>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Lookup on IMDb</summary>
+		<description>Lookup the selected or manually entered video title, episode or cast member, on the IMDb.</description>
+		<platform>all</platform>
+		<language>en</language>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<email>hiltronix@gmail.com</email>
+	</extension>
+</addon>
+
 <addon id="context.videolookup.dialog"
 	name="Video Lookup"
 	version="1.0.1"
@@ -93,5 +118,23 @@
 		<source>https://github.com/Hiltronix/plugin.video.sickrage</source>
 		<email>hiltronix@gmail.com</email>
 	</extension>
+</addon>
+
+<addon id="script.module.beautifulsoup"
+       name="BeautifulSoup"
+       version="3.2.1"
+       provider-name="Leonard Richardson (leonardr@segfault.org)">
+  <requires>
+    <import addon="xbmc.python"
+    		version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.module"
+             library="lib" />
+  <extension point="xbmc.addon.metadata">
+    <summary>HTML/XML parser for quick-turnaround applications like screen-scraping</summary>
+    <description>Beautiful Soup parses arbitrarily invalid SGML and provides a variety of methods and Pythonic idioms for iterating and searching the parse tree.</description>
+    <license>BSD</license>
+    <platform>all</platform>
+  </extension>
 </addon>
 </addons>
