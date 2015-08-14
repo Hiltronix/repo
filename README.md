@@ -49,3 +49,10 @@ If you would like to show your appreciation for this project, and/or help suppor
 [Click Here](https://hiltronix.com/donations/).  
 [![Support the project](https://github.com/Hiltronix/repo/blob/master/images/donate.png)](https://hiltronix.com/donations/)
 
+-----
+
+## Disclaimer  
+
+Kodi is a registered trademark of the XBMC Foundation. We are not connected to or in any other way affiliated with Kodi, Team Kodi, or the XBMC Foundation.  
+Furthermore, any software, addons, or products offered by us will receive no support in official Kodi channels, including the Kodi forums and various social networks.  
+We do not host any video content, nor do we condone piracy. Please use these add-ons at your own risk and abide by your country's copyright laws.
