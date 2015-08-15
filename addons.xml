@@ -1,30 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="context.lookuponimdb.dialog"
-	name="Lookup on IMDb"
-	version="1.0.0"
-	provider-name="Hiltronix">
-	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
-	</requires>
-	<extension point="kodi.context.item" library="addon.py">
-		<item>
-			<label>Lookup on IMDb</label>
-			<!-- <visible>!IsEmpty(ListItem.Label) | !IsEmpty(ListItem.Title)</visible> -->
-			<visible>true</visible>
-			<!-- <parent>kodi.core.manage</parent> -->
-		</item>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Lookup on IMDb</summary>
-		<description>Lookup the selected or manually entered video title, episode or cast member, on the IMDb.</description>
-		<platform>all</platform>
-		<language>en</language>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<email>hiltronix@gmail.com</email>
-	</extension>
-</addon>
-
 <addon id="context.videolookup.dialog"
 	name="Video Lookup"
 	version="1.0.1"
@@ -99,11 +74,10 @@
 
 <addon id="plugin.video.sickrage"
 	name="SickRage"
-	version="1.3.3"
+	version="1.3.4"
 	provider-name="Hiltronix">
 	<requires>
 		<import addon="xbmc.python" version="2.1.0"/>
-		<import addon="script.module.beautifulsoup" />
 		<import addon="script.module.metahandler" version="2.5.1" />
 		<import addon="script.module.addon.common" version="2.0.0" />
 	</requires>
