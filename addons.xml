@@ -46,6 +46,25 @@
 	</extension>
 </addon>
 
+<addon id="plugin.program.deluge"
+       name="Deluge"
+       version="0.4.7"
+       provider-name="Iulian Postaru">
+    <requires>
+        <import addon="xbmc.python" version="2.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+		<summary lang="ro">Plugin de gestionare pentru Deluge</summary>
+        <summary lang="en">Deluge Control Plugin</summary>
+		<description lang="ro">Gestionează clentul de torent Deluge din XBMC![CR][CR]Instalarea:[CR]1. Instaleaza pluginul WebUI pentru Deluge[CR]2. Activeaza pluginul WebUI pentru Deluge[CR]2. Instaleaza pluginul Deluge XBMC[CR]4. Introdu parola prin intermediul setarilor pluginului XBMC[CR]5. Bucurăte!</description>
+        <description lang="en">Manages your Deluge queue from within XBMC![CR][CR]Install:[CR]1. Install WebUI plugin for Deluge[CR]2. Enable WebUI for Deluge[CR]2. Install Deluge XBMC plug-in[CR]4. Enter password of Deluge via 'Plug-in Settings'[CR]5. Enjoy!</description>
+    </extension>
+</addon>
+
 <addon id="plugin.program.utorrent"
        name="uTorrent"
        version="1.1.4"
