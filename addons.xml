@@ -96,12 +96,12 @@
 
 <addon id="plugin.video.sickrage"
 	name="SickRage"
-	version="1.3.14"
+	version="1.3.15"
 	provider-name="Hiltronix">
 	<requires>
-		<import addon="xbmc.python" version="2.24.0"/>
-		<import addon="script.module.metahandler" version="2.7.0" />
-		<import addon="script.module.addon.common" version="2.0.0" />
+		<import addon="xbmc.python" version="2.25.0"/>
+		<import addon="script.module.metahandler" version="2.9.0" />
+		<import addon="script.module.addon.common" version="2.0.1" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>executable video</provides>
@@ -160,7 +160,7 @@
 
 <addon id="script.module.metahandler"
      name="metahandler"
-     version="2.7.0"
+     version="2.9.0"
      provider-name="Eldorado">
   <requires>
     <import addon="xbmc.python" version="2.1.0" />
