@@ -97,7 +97,7 @@
 
 <addon id="plugin.video.sickrage"
 	name="SickRage"
-	version="2.1.4"
+	version="2.1.5"
 	provider-name="Hiltronix">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
