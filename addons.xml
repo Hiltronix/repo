@@ -28,21 +28,26 @@
 
 <addon id="plugin.program.advsettings"
 	name="My Advanced Settings"
-	version="1.2.3"
+	version="2.0.0"
 	provider-name="Hiltronix">
 	<requires>
-		<import addon="xbmc.python" version="2.1.0"/>
+		<import addon="xbmc.python" version="2.2.5"/>
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>executable</provides>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>Advanced Settings for Kodi/XBMC</summary>
-		<description>View and change advanced settings that aren't easily accessible in Kodi/XBMC.</description>
+		<summary>Advanced Settings for Kodi.</summary>
+		<description>View and change advanced settings that aren't easily accessible in Kodi.</description>
 		<platform>all</platform>
 		<language>en</language>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
 		<email>hiltronix@gmail.com</email>
+		<news>View the Change Log under Settings in the app's main menu for details.[CR]</news>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+		</assets>
 	</extension>
 </addon>
 
