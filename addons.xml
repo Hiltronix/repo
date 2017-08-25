@@ -28,7 +28,7 @@
 
 <addon id="plugin.program.advsettings"
 	name="My Advanced Settings"
-	version="2.0.0"
+	version="2.0.1"
 	provider-name="Hiltronix">
 	<requires>
 		<import addon="xbmc.python" version="2.2.5"/>
@@ -102,7 +102,7 @@
 
 <addon id="plugin.video.sickrage"
 	name="SickRage"
-	version="3.0.3"
+	version="3.0.4"
 	provider-name="Hiltronix">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
