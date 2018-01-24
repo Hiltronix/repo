@@ -28,7 +28,7 @@
 
 <addon id="plugin.program.advsettings"
 	name="My Advanced Settings"
-	version="2.0.4"
+	version="2.0.5"
 	provider-name="Hiltronix">
 	<requires>
 		<import addon="xbmc.python" version="2.25.0"/>
