@@ -54,7 +54,7 @@
 
 <addon id="plugin.program.qbittorrent"
     name="qBittorrent"
-    version="2.1.7"
+    version="2.1.8"
     provider-name="Hiltronix">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
