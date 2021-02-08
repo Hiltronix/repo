@@ -1,11 +1,8 @@
 # Hiltronix Add-ons Repository for Kodi/XBMC
 
 This repo contains:
-##### [SickRage Interface](https://github.com/Hiltronix/plugin.video.sickrage)
-##### Video Lookup (context menu Add-on)
-##### My Advanced Settings
 ##### qBittorrent (manage qBittorrent from Kodi/XBMC)
-##### uTorrent (this version works on Android)
+##### My Advanced Settings
 
 -----
 
