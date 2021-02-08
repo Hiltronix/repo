@@ -1,31 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="context.videolookup.dialog"
-	name="Video Lookup"
-	version="1.0.1"
-	provider-name="Hiltronix">
-	<requires>
-		<import addon="xbmc.python" version="2.20.0"/>
-	    <import addon="script.extendedinfo" version="2.0.6"/>
-	</requires>
-	<extension point="kodi.context.item" library="addon.py">
-		<item>
-			<label>Video Lookup</label>
-			<!-- <visible>!IsEmpty(ListItem.Label) | !IsEmpty(ListItem.Title)</visible> -->
-			<visible>true</visible>
-			<!-- <parent>kodi.core.manage</parent> -->
-		</item>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>Video Lookup</summary>
-		<description>Lookup movie or TV show title, TV show episode, or cast member on IMDb.  Then display results using ExtendedInfo.</description>
-		<platform>all</platform>
-		<language>en</language>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<email>hiltronix@gmail.com</email>
-	</extension>
-</addon>
-
 <addon id="plugin.program.advsettings"
 	name="My Advanced Settings"
 	version="2.0.5"
@@ -54,7 +28,7 @@
 
 <addon id="plugin.program.qbittorrent"
     name="qBittorrent"
-    version="2.1.8"
+    version="2.1.9"
     provider-name="Hiltronix">
     <requires>
         <import addon="xbmc.python" version="2.25.0"/>
@@ -66,74 +40,12 @@
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
         <summary lang="en">qBittorrent Control Plugin</summary>
-        <description lang="en">Manage your qBittorrent queue from within Kodi/XBMC.</description>
+        <description lang="en">Manage your qBittorrent queue from within Kodi.</description>
 		<platform>all</platform>
 		<language>en</language>
 		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<source>https://github.com/Hiltronix/plugin.video.sickrage</source>
+		<source>https://github.com/Hiltronix/repo</source>
 		<email>hiltronix@gmail.com</email>
-	</extension>
-</addon>
-
-<addon id="plugin.program.utorrent"
-       name="uTorrent"
-       version="1.1.4"
-       provider-name="Taxigps">
-    <requires>
-        <import addon="xbmc.python" version="2.1.0"/>
-        <import addon="script.module.simplejson" version="3.3.0"/>
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-        <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-        <summary lang="en">uTorrent Control Plugin</summary>
-        <summary lang="zh">uTorrent控制插件</summary>
-        <description lang="en">Manages your uTorrent queue from within XBMC![CR][CR]Install:[CR]1. Enable WebUI for uTorrent[CR]2. Enable Token Authentication for uTorrent[CR]3. Install the plug-in[CR]4. Enter username and password of uTorrent via 'Plug-in Settings'[CR]5. Enjoy!</description>
-        <description lang="zh">在XBMC中控制你的uTorrent下载队列。[CR][CR]安装说明：[CR]1. 起用uTorrent的WebUI[CR]2. 启用uTorrent的Token认证[CR]3. 安装本插件[CR]4. 在扩展功能设置界面输入uTorrent用户名和密码[CR]5. 祝你使用愉快！</description>
-        <platform>all</platform>
-        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-        <forum>http://forum.xbmc.org/showthread.php?tid=89380</forum>
-        <website></website>
-        <email></email>
-        <source>https://github.com/taxigps/plugin.program.utorrent</source>
-    </extension>
-</addon>
-
-<addon id="plugin.video.sickrage"
-	name="SickRage"
-	version="3.0.4"
-	provider-name="Hiltronix">
-	<requires>
-		<import addon="xbmc.python" version="2.25.0"/>
-		<import addon="script.module.requests" version="2.12.4" />
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.service" library="/resources/lib/service.py" start="login">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary>SickRage Interface for Kodi</summary>
-		<description>View and control SickRage or SickBeard from within Kodi.</description>
-		<platform>all</platform>
-		<language>en</language>
-		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
-		<source>https://github.com/Hiltronix/plugin.video.sickrage</source>
-		<email>hiltronix@gmail.com</email>
-		<news>View the Change Log under Settings in the app's main menu for details.[CR]</news>
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/images/sickrage_addon_1.jpg</screenshot>
-			<screenshot>resources/images/sickrage_addon_2.jpg</screenshot>
-			<screenshot>resources/images/sickrage_addon_3.jpg</screenshot>
-			<screenshot>resources/images/sickrage_addon_4.jpg</screenshot>
-			<screenshot>resources/images/sickrage_addon_5.jpg</screenshot>
-			<screenshot>resources/images/sickrage_addon_6.jpg</screenshot>
-		</assets>
 	</extension>
 </addon>
 
